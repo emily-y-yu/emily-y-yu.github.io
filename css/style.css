@@ -131,6 +131,7 @@ p a:active {
 	-moz-transition: all 0.2s linear;
 }
 
-footer img {
+.links {
+	color: white;
 	margin: 10px;
 }
