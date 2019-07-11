@@ -18,10 +18,6 @@ div {
 	margin: auto;
 }
 
-footer img {
-	margin: 10px;
-}
-
 /* 
  * NAVIGATION BAR
  */
@@ -66,13 +62,27 @@ footer img {
 	padding: 15px;
 }
 
+.profile {
+	border-radius: 10px;
+	float: left;
+	height: auto;
+	margin: 15px 20px 30px 8px;
+	width: 22%;
+}
+
+@media screen and (max-width: 750px) {
+  .profile {
+    width: 100%;
+  }
+}
+
 h1 {
 	color: #3acfb8;
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
 	font-weight: normal;
 	letter-spacing: 8px;
-	margin-bottom: -15px;
+	margin-bottom: -10px;
 	text-transform: lowercase;
 }
 
@@ -90,21 +100,12 @@ p a:link, a:active, a:visited {
 	-moz-transition: all 0.2s linear;
 }
 
-a:hover {
+p a:hover {
 	background-color: #3acfb8;
 	color: white;
 	text-decoration: none;
 }
 
-.profile {
-	float: left;
-	height: auto;
-	margin: 15px 20px 30px 8px;
-	width: 20%;
-}
-
-@media screen and (max-width: 800px) {
-  .profile {
-    width: 100%;
-  }
+footer img {
+	margin: 10px;
 }
