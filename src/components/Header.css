@@ -1,0 +1,46 @@
+.header {
+    display: block;
+    margin-bottom: 100px;
+}
+.name {
+    color: #C9967B;
+    font-size: 50px;
+    float: left;
+    text-transform: lowercase;
+    font-family: 'Sacramento', cursive;
+    transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+}
+.name:hover {
+    color: #7f5c4b;
+    font-size: 55px;
+    transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+}
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav {
+    font-size: 20px;
+    float: right;
+    font-family: 'Baloo Tamma 2', cursive;
+    text-transform: lowercase;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+li a:link {
+    margin: 0px 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media screen and (max-width: 910px) {
+    .nav {
+        display: block;
+        float: left;
+    }
+}

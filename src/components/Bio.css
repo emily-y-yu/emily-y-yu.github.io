@@ -1,0 +1,41 @@
+.bio {
+    font-family: 'Baloo Tamma 2', cursive;
+    text-transform: lowercase;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.title {
+    font-family: 'Sacramento', cursive;
+    font-size: 65px;
+    color: #7f5c4b;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+.subtitle {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #7f5c4b;
+    margin-bottom: 5px;
+}
+p {
+    margin: 10px 0px;
+}
+.text {
+    margin-top: -10px;
+}
+.photo {
+    width: 250px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 910px) {
+    .bio {
+        display: block;
+    }
+    .photo {
+        margin-top: 20px;
+    }
+}

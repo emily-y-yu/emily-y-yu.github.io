@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(-45deg, #E2B776, #6EADD0, #AEB39A, #76B2B1, #B25E6D);
+    background-size: 500% 500%;
+    animation: 5s infinite ease gradient;
+    animation-direction: alternate;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+a:link {
+    color: #C9967B;
+    transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: #C9967B;
+}
+a:hover {
+    color: #7f5c4b;
+    cursor: crosshair;
+    transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+    border-bottom: 5px solid #7f5c4b;
+}
